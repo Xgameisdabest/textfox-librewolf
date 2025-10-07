@@ -7,13 +7,17 @@
 \__/\___/_/|_|\__/_/  \____/_/|_|  
 ```
 
+> [!NOTE]
+> This fork aims to fix the vertical tabs expand on hover
+> All credits goes to the original creator
+
 _a port of spotify tui to firefox_
 
 ## Preview
 
-![image](https://github.com/adriankarlen/textfox/blob/main/misc/vertical-tabs.png)
+![image](https://github.com/Xgameisdabest/textfox/blob/main/misc/vertical-tabs.png)
 
-![image](https://github.com/adriankarlen/textfox/blob/main/misc/horizontal-tabs.png)
+![image](https://github.com/Xgameisdabest/textfox/blob/main/misc/horizontal-tabs.png)
 
 > [!NOTE]
 > The color scheme used in the pictures is [Rosé Pine Moon](https://github.com/rose-pine/firefox).
