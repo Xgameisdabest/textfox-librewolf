@@ -3,17 +3,6 @@
 	--urlbar-container-padding: 0 !important;
 }
 
-/* Hide the search engine icon (e.g. Brave, Google, DuckDuckGo) at the start of the address bar */
-/* New Firefox builds (post-2023) use this: */
-#urlbar-search-mode-indicator,
-#urlbar-engine-one-off-button,
-#urlbar-search-button,
-#urlbar .searchbar-search-icon,
-#urlbar .urlbar-input-container > .urlbar-search-icon,
-#identity-box + .urlbar-search-icon {
-	display: none !important;
-}
-
 /* Adjust padding so text is aligned nicely */
 #urlbar-input-container {
 	padding-inline-start: 8px !important;
@@ -39,3 +28,4 @@
 .urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {
 	border-top: var(--border-width) solid var(--tf-accent) !important;
 }
+
