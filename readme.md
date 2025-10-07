@@ -8,8 +8,7 @@
 ```
 
 > [!NOTE]
-> This fork aims to fix the vertical tabs expand on hover
-> All credits goes to the original creator
+> This fork aims to fix the vertical tabs expand on hover. All credits goes to the original creator.
 
 _a port of spotify tui to firefox_
 
