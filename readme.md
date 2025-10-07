@@ -14,9 +14,9 @@ _a port of spotify tui to firefox_
 
 ## Preview
 
-![image](https://github.com/Xgameisdabest/textfox/blob/main/misc/vertical-tabs.png)
+![image](https://github.com/Xgameisdabest/textfox-librewolf/blob/main/misc/vertical-tabs.png)
 
-![image](https://github.com/Xgameisdabest/textfox/blob/main/misc/horizontal-tabs.png)
+![image](https://github.com/Xgameisdabest/textfox-librewolf/blob/main/misc/horizontal-tabs.png)
 
 > [!NOTE]
 > The color scheme used in the pictures is [Rosé Pine Moon](https://github.com/rose-pine/firefox).
