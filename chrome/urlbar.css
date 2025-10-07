@@ -1,24 +1,41 @@
 #urlbar {
-  text-align: center;
+	text-align: center;
+	--urlbar-container-padding: 0 !important;
+}
+
+/* Hide the search engine icon (e.g. Brave, Google, DuckDuckGo) at the start of the address bar */
+/* New Firefox builds (post-2023) use this: */
+#urlbar-search-mode-indicator,
+#urlbar-engine-one-off-button,
+#urlbar-search-button,
+#urlbar .searchbar-search-icon,
+#urlbar .urlbar-input-container > .urlbar-search-icon,
+#identity-box + .urlbar-search-icon {
+	display: none !important;
+}
+
+/* Adjust padding so text is aligned nicely */
+#urlbar-input-container {
+	padding-inline-start: 8px !important;
 }
 
 #urlbar-background {
-  background-color: transparent !important;
-  border: unset !important;
-  box-shadow: unset !important;
+	background-color: transparent !important;
+	border: unset !important;
+	box-shadow: unset !important;
 }
 .urlbarView {
-  text-align: start;
-  margin-top: 4px;
-  background-color: var(--tf-bg);
-  border: var(--border-width) solid var(--tf-accent) !important;
-  border-radius: 0 0 var(--tf-rounding) var(--tf-rounding);
+	text-align: start;
+	margin-top: 4px;
+	background-color: var(--tf-bg);
+	border: var(--border-width) solid var(--tf-accent) !important;
+	border-radius: 0 0 var(--tf-rounding) var(--tf-rounding);
 }
 .urlbarView-body-inner {
-  #urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
-    border-top: unset !important;
-  }
+	#urlbar[open] > .urlbarView > .urlbarView-body-outer > & {
+		border-top: unset !important;
+	}
 }
 .urlbarView:not([noresults]) > .search-one-offs:not([hidden]) {
-  border-top: var(--border-width) solid var(--tf-accent) !important;
+	border-top: var(--border-width) solid var(--tf-accent) !important;
 }
