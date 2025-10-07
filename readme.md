@@ -19,7 +19,7 @@ _a port of spotify tui to firefox_
 ![image](https://github.com/Xgameisdabest/textfox-librewolf/blob/main/misc/horizontal-tabs.png)
 
 > [!NOTE]
-> The color scheme used in the pictures is [Rosé Pine Moon](https://github.com/rose-pine/firefox).
+> The color scheme used in the pictures is [Black](https://addons.mozilla.org/en-US/firefox/addon/black21/).
 > `textfox` tries to not hard code any colors, [Firefox Color extension](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) is the
 > recommended approach to coloring Firefox with `textfox`.
 
