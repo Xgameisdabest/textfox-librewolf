@@ -1,9 +1,7 @@
 :root {
   --toolbar-color: currentColor !important;
   --link-color: var(--tf-accent) !important;
-  --urlbarView-highlight-background: var(
-    --toolbar-field-background-color
-  ) !important;
+  /* --urlbarView-highlight-background: var(--toolbar-field-background-color) !important; */
   --toolbox-non-lwt-bgcolor: var(--tf-bg) !important;
 
   /* borders */
